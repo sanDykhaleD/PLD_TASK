@@ -1,0 +1,57 @@
+"Start Symbol" = <program>
+!--------Terminal------
+Id=[_]|{letter}{Alphanumeric}*
+Digit=('+'|'-')?{digit}+ ('.'{digit}+)?('e'|('+'|'-'){digit}+'^'('+'|'-'){digit}+('.'{digit}+)?)?
+!---------Rules--------               
+<program> ::= '<?' <stmt_list> '?>'
+           
+<stmt_list> ::= <concept>
+             |<concept><stmt_list>
+             
+<concept> ::= <assign>
+           |<if_stmt>
+           |<for_stmt>
+           |<switch_stmt>
+
+<assign> ::= <id>'='<expr>
+        
+<id> ::= Id
+             
+<expr> ::= <expr> '+' <term>
+        |<expr> '-' <term>
+        |<term>
+        
+<term> ::= <term> '*' <factor>
+        |<term> '/' <factor>
+        |<term> '%'<factor>
+        |<factor>
+        
+<factor> ::= <factor>'**'<exp>
+          |<exp>
+          
+<exp> ::= '('<expr>')'
+       |<id>
+       |<digit>
+       
+<digit> ::= Digit
+              
+<if_stmt> ::= if'('<cond>')' ':'  <stmt_list> endif ';'
+           | if'('<cond>')' ':' <stmt_list> else <stmt_list> endif ';'
+           
+<cond> ::= <expr><op><expr>
+        
+<op> ::= '<'|'>'|'=='|'!='
+      
+<for_stmt> ::= For'('<data><assign> ';' <cond> ';'<step>')'  '{'<stmt_list>'}'
+
+<data> ::= int|float|double|string
+        
+<step> ::= <id>'++'
+        |'++'<id>
+        |<id>'--'
+        |'--'<id>
+        |<assign>           
+        
+<switch_stmt> ::= switch'('<expr>')' '{' case <literal> ':' break';' default ':' break ';' '}'
+               <literal> ::= Digit|Id
+               

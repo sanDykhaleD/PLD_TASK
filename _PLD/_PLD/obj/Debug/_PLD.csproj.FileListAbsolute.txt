@@ -1,0 +1,14 @@
+C:\Users\Sandy\source\repos\_PLD\_PLD\bin\Debug\_PLD.exe.config
+C:\Users\Sandy\source\repos\_PLD\_PLD\bin\Debug\_PLD.exe
+C:\Users\Sandy\source\repos\_PLD\_PLD\bin\Debug\_PLD.pdb
+C:\Users\Sandy\source\repos\_PLD\_PLD\bin\Debug\CalithaLib.dll
+C:\Users\Sandy\source\repos\_PLD\_PLD\bin\Debug\GoldParserEngine.dll
+C:\Users\Sandy\source\repos\_PLD\_PLD\obj\Debug\_PLD.csproj.AssemblyReference.cache
+C:\Users\Sandy\source\repos\_PLD\_PLD\obj\Debug\_PLD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sandy\source\repos\_PLD\_PLD\obj\Debug\_PLD.Form1.resources
+C:\Users\Sandy\source\repos\_PLD\_PLD\obj\Debug\_PLD.Properties.Resources.resources
+C:\Users\Sandy\source\repos\_PLD\_PLD\obj\Debug\_PLD.csproj.GenerateResource.cache
+C:\Users\Sandy\source\repos\_PLD\_PLD\obj\Debug\_PLD.csproj.CoreCompileInputs.cache
+C:\Users\Sandy\source\repos\_PLD\_PLD\obj\Debug\_PLD.csproj.CopyComplete
+C:\Users\Sandy\source\repos\_PLD\_PLD\obj\Debug\_PLD.exe
+C:\Users\Sandy\source\repos\_PLD\_PLD\obj\Debug\_PLD.pdb
